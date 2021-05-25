@@ -1,24 +1,31 @@
 # TOPIC TABLE
-- Workflow
+- [ ] Workflow (everyone)
   - Rprojects
   - directory structure
-    - file names
-    - variable names
+  - file names
+  - variable names
+  - function names
+  - commenting your code
   - what is a "project"?
-- Useful packages
-- jsPsych
-- SQL / databases
-- Symbols/Quosures/Etc.
-- data.table
+  - here
+  - Git/Github
+
+
+- [ ] jsPsych (Dan)
+- [ ] SQL / databases (Niki)
+- Symbols/Quosures/Under the hood (Daniel)
+- data.table (Bowen)
 - Markdown / Multimarkdown / pandoc
-- Git/Github
-- Shiny
+
 - problem challenge
-- vectorisation
+- vectorisation (Bowen)
   - purrr
-- geospatial mapping
+- geospatial mapping (Bowen)
   - rayshader  
 - text editors
   - nano / vim / emacs
 - Analysis strategies
-- regex
+- regex (Niki)
+- atom (teletype) (Bowen)
+- Shiny
+- data sources/apis (niki)
