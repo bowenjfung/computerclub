@@ -1,0 +1,24 @@
+# TOPIC TABLE
+- Workflow
+  - Rprojects
+  - directory structure
+    - file names
+    - variable names
+  - what is a "project"?
+- Useful packages
+- jsPsych
+- SQL / databases
+- Symbols/Quosures/Etc.
+- data.table
+- Markdown / Multimarkdown / pandoc
+- Git/Github
+- Shiny
+- problem challenge
+- vectorisation
+  - purrr
+- geospatial mapping
+  - rayshader  
+- text editors
+  - nano / vim / emacs
+- Analysis strategies
+- regex
