@@ -13,9 +13,10 @@
 
 - [ ] jsPsych (Dan)
 - [ ] SQL / databases (Niki)
-- Symbols/Quosures/Under the hood (Daniel)
+- Metaprogramming (Daniel)
 - data.table (Bowen)
 - Markdown / Multimarkdown / pandoc
+- Unit testing / testthat (Daniel)
 
 - problem challenge
 - vectorisation (Bowen)
