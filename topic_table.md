@@ -8,18 +8,17 @@
   - commenting your code
   - what is a "project"?
   - here
-  - Git/Github
 
-
+- [x] Version control / git / github
 - [ ] jsPsych (Dan)
 - [ ] SQL / databases (Niki)
 - [ ] Metaprogramming (Daniel)
 - [ ] data.table (Bowen)
 - [ ] Markdown / Multimarkdown / pandoc
-- [ ] Unit testing / testthat (Daniel)
+- [x] Unit testing / testthat (Daniel)
 - [ ] Debugging (Daniel)
 - [ ] problem challenge
-- [ ] vectorisation (Bowen)
+- [ ] Vectorisation (Bowen)
   - purrr
 - [ ] geospatial mapping (Bowen)
   - rayshader  
