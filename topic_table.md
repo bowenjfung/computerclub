@@ -13,20 +13,20 @@
 
 - [ ] jsPsych (Dan)
 - [ ] SQL / databases (Niki)
-- Metaprogramming (Daniel)
-- data.table (Bowen)
-- Markdown / Multimarkdown / pandoc
-- Unit testing / testthat (Daniel)
-
-- problem challenge
-- vectorisation (Bowen)
+- [ ] Metaprogramming (Daniel)
+- [ ] data.table (Bowen)
+- [ ] Markdown / Multimarkdown / pandoc
+- [ ] Unit testing / testthat (Daniel)
+- [ ] Debugging (Daniel)
+- [ ] problem challenge
+- [ ] vectorisation (Bowen)
   - purrr
-- geospatial mapping (Bowen)
+- [ ] geospatial mapping (Bowen)
   - rayshader  
-- text editors
+- [ ] text editors
   - nano / vim / emacs
-- Analysis strategies
-- regex (Niki)
-- atom (teletype) (Bowen)
-- Shiny
-- data sources/apis (niki)
+- [ ] Analysis strategies
+- [ ] regex (Niki)
+- [ ] atom (teletype) (Bowen)
+- [ ] Shiny (Daniel)
+- [ ] data sources/apis (niki)
