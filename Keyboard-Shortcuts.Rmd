@@ -1,0 +1,62 @@
+---
+title: "Keyboard-Shortcuts"
+output: html_document
+---
+
+## Keyboard shortcuts
+
+* `alt`+`shift`+`k` - bring up hotkey help
+* `ctlr`+`shift`+`r` - to add labels
+* `ctrl`+`shft`+`alt`+`w` - closes all scripts in RStudio except the one you're on
+* `ctrl`+`shft`+`o` - to open document outline
+* `ctrl`+`shft`+`alt`+`r` - to create the roxygen skeleton for a function
+* `ctrl`+`l` - clear console
+* `ctrl`+`shift`+`f` - global search in a directory
+* `ctrl`+`i` - standardises indentation
+* `alt`+`-` - to insert an `<-` assignment
+* `ctrl`+`shft`+`m` - to insert a pipe operator (not to be confused with `ctrl`+`shft`+`n`, to open a new script)
+* `ctrl`+`alt`+`x` - highlight some syntax to create a function. It does a pretty good job at picking up parameters
+* `ctrl`+`shft`+`alt`+`m` - to change multiple references to a variable in a script if you want to rename
+* `alt`+`down`/`up` - highlight syntax and move up or down
+* `ctrl`+`shift`+`.` - bring up tab browser, arrow up or down to move between tabs
+* `ctrl`+`shift`+`d` - copy current line below
+* `ctrl`+`d` - delete current line
+* (At console) `ctrl` + `up arrow` - bring up history
+* `ctrl`+`alt`+`i` - create Rmarkdown chunk
+* `ctrl`+`1` / `ctrl`+`2` - shift cursor between source / console
+
+
+Not an RStudio hotkey, but:
+* `cmd`+`,` - open options (mac only)
+
+## reprex
+
+Use `reprex` to copy reporducible code. Really good for sending through issues with package functions. To do so, wrap `reprex::reprex()` around a bit of code:
+
+``` r
+reprex::reprex({
+  add <- function(x) {
+    x + 1
+  }
+  
+  
+  add("A")
+})
+
+```
+
+Which will give you
+
+
+``` r
+add <- function(x) {
+  x + 1
+}
+
+
+add("A")
+#> Error in x + 1: non-numeric argument to binary operator
+```
+
+<sup>Created on 2021-08-05 by the [reprex package](https://reprex.tidyverse.org) (v1.0.0)</sup>
+
