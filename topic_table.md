@@ -27,6 +27,7 @@
   - nano / vim / emacs
 - [ ] Analysis strategies
 - [ ] regex (Niki)
+- [ ] Let's get familiar with Bayesian statistics (Dan)
 - [ ] atom (teletype) (Bowen)
 - [ ] Shiny (Daniel)
 - [ ] data sources/apis (niki)
