@@ -9,6 +9,7 @@
   - what is a "project"?
   - here
 
+- [x] Q (Daniel)
 - [x] Version control / git / github
 - [ ] jsPsych (Dan)
 - [ ] SQL / databases (Niki)
