@@ -17,6 +17,7 @@
 - [ ] Markdown / Multimarkdown / pandoc
 - [x] Unit testing / testthat (Daniel)
 - [x] Debugging (Daniel)
+- [x] Web automation (selenium) (Bowen)
 - [ ] problem challenge
 - [ ] Vectorisation (Bowen)
   - purrr
