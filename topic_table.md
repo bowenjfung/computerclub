@@ -1,5 +1,5 @@
 # TOPIC TABLE
-- [ ] Workflow (everyone)
+- [x] Workflow (everyone)
   - Rprojects
   - directory structure
   - file names
@@ -12,11 +12,11 @@
 - [x] Version control / git / github
 - [ ] jsPsych (Dan)
 - [ ] SQL / databases (Niki)
-- [ ] Metaprogramming (Daniel)
-- [ ] data.table (Bowen)
+- [x] Metaprogramming (Daniel)
+- [x] data.table (Bowen)
 - [ ] Markdown / Multimarkdown / pandoc
 - [x] Unit testing / testthat (Daniel)
-- [ ] Debugging (Daniel)
+- [x] Debugging (Daniel)
 - [ ] problem challenge
 - [ ] Vectorisation (Bowen)
   - purrr
