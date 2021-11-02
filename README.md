@@ -1,4 +1,4 @@
-# tuesdayteardown
+# computer club
 cathartic coding meetups
 
 # Future Sessions
