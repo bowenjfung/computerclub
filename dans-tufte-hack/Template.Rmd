@@ -1,0 +1,74 @@
+---
+title: "A Title"
+subtitle: "A subtitle"
+author: "Author Name"
+date: "`r Sys.Date()`"
+toc-title: "Table of Contents"
+output:
+  html_document:
+    code_folding: hide # show/hide
+    toc: yes
+    toc_depth: 2
+    # Calls custom css. If you change the location of the css folder, change it here too
+    css: "css/tufte_DM-hack.css"
+    includes:
+      # This is just a bit of custom html to add a bit of space after the references
+      
+      after_body: "footer/footer.html"
+# Delete these lines to drop bibtex/bibliography
+csl: "./references/apa.csl"
+bibliography: "./references/references.bib"
+---
+
+******
+
+```{r md-setup, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.fullwidth=TRUE, fig.align = "center", fig.width = 10) 
+```
+
+# Document Set up
+## Packages
+
+```{r load-packages, cache = FALSE}
+# Load Packages
+
+# For markdown tables
+library(knitr)
+```
+
+# Heading 1
+
+## Some example code
+
+```{r}
+# I like to have code folding on as a default, but sometimes we want to change the behaviour of a single chunk.
+# This chunk is displayed with code folding on (the document default).
+this <- 
+data.frame(
+  x = rnorm(100),
+  z = rbinom(100, 1, .5)
+)
+```
+
+```{r class.source = "fold-show"}
+# But if I want to show a single chunk we can set this in the chunk options (see source)
+this$y <- rnorm(100, this$x*2, 1.5)
+this$z <- ifelse(this$z == 0, 4, 1)
+
+plot(this$x, this$y, pch = this$z, xlab = "X", ylab = "Y")
+```
+
+# Attributions
+
+This is a custom hack of the [tufte](https://github.com/rstudio/tufte) R markdown theme @xieTufteTufteStyles2021.
+
+# Session Info
+
+```{r, echo=FALSE}
+sessionInfo()
+```
+
+# References
+
+
+
