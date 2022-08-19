@@ -17,7 +17,7 @@ I started the following with a clean install (macOS Monterey).
 	 - Don't worry about the macOS tool chain installer (it doesn't work)
 	 - Run the R code at this link: https://github.com/stan-dev/rstan/wiki/Configuring-C---Toolchain-for-Mac
 	 - Then follow these instructions: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started and check that the example model runs without error.
-	 - Note: You may want to work with the development version, especially if interchanging between `cmdstanr` and `rstan`
+	 - Note: You may want to work with the development version, especially if interchanging between `cmdstanr` and `rstan`. Note that Rstudio uses the version of `rstan` to check model code, which can be frustrating when using `cmdstanr`. Installing the dev version can help to ensure these checks are using a version of `rstan` that isn't ages being `cmdstanr`. 
 		 - R; `install.packages("rstan", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))`
 6. Open RStudio and confirm again that everything loads and this example model runs without error.
 7. Install cmdstanR: https://mc-stan.org/cmdstanr/articles/cmdstanr.html
