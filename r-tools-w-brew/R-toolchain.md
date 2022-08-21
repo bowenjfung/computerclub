@@ -32,10 +32,12 @@ I started the following with a clean install (macOS Monterey).
 	- R: `install.packages(c("coda","mvtnorm","loo","dagitty","shape"))`
 	- R: `devtools::install_github("rmcelreath/rethinking")`
 9. Follow data.table installation instructions. https://github.com/Rdatatable/data.table/wiki/Installation. I used `brew install libomp` to install openMP. This includes creating (or editing) a Makevars file (do this prior to installing data.table). In our case the R code used prior to installing Stan has already created this file, so we only need to edit it: 
-	  - Terminal: `open ~/.R/Makevars` 
-	  - Then include the edits listed on the data.table website link above under the openmp section.
-	  - Confirm data.table loads with multi threaded support (load library in R)
-	  - A final note that installing data.table prior to installing devtools will produce an error as one of it's dependencies doesn't have openmp support (fs, see this GitHub issue: https://github.com/r-lib/fs/issues/345). You can get around this by temporarily removing the openmp edits to the Makevars file and installing devtools, then adding the changes back to Makevars.
-10. Profit
+  - Terminal: `open ~/.R/Makevars` 
+  - Then include the edits listed on the data.table website link above under the openmp section.
+  - Confirm data.table loads with multi threaded support (load library in R)
+  - A final note that installing data.table prior to installing devtools will produce an error as one of it's dependencies doesn't have openmp support (fs, see this GitHub issue: https://github.com/r-lib/fs/issues/345). You can get around this by temporarily removing the openmp edits to the Makevars file and installing devtools, then adding the changes back to Makevars.
+10. If you plan to knit to pdf using RMarkdown or Quarto you may also want to install texlive:
+  - Terminal: `brew install texlive`
+  - An alternative is to install tinytex using yihui's brew formula on github: https://github.com/yihui/homebrew-tinytex
 
 
